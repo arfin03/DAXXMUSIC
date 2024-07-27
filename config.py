@@ -9,18 +9,18 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID","20718334"))
+API_HASH = getenv("API_HASH","4e81464b29d79c58d0ad8a0c55ece4a5")
 
 EVAL = list(map(int, getenv("EVAL", "7427691214 7045191057").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN","6690642431:AAGSF6SvAuOx-Wu6ztRExET6e85DcTroTz8")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Ownergit")
+OWNER_USERNAME = getenv("OWNER_USERNAME","๏ 𝐎ʙɪᴛᴏ ᴜᴄʜɪʜᴀ ๏")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "NexikoBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Alya_musicXbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Nexiko")
+BOT_NAME = getenv("BOT_NAME" , "Alya music bot")
 # ---------------------------------------------------------
 ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 # ---------------------------------------------------------
@@ -37,10 +37,10 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002237336934))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002204896499"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7427691214))
+OWNER_ID = int(getenv("OWNER_ID", "5585016974"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ALLTYPECC")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gitwizardbypass")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PikaSub_News")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Pika_Discussion")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -143,7 +143,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
+    "START_IMG_URL", "https://graph.org/file/7e7c0564bfb98e9ec652f.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
