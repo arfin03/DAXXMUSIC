@@ -22,7 +22,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "Alya_musicXbot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "Alya music bot")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Missalya")
 # ---------------------------------------------------------
 
 
@@ -37,7 +37,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002204896499"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002159303069"))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 OWNER_ID = int(getenv("OWNER_ID", "5585016974"))
